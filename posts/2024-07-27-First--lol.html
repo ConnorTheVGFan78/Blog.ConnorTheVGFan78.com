@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Post</title> <!-- If you leave title as "Blog Post", it will automatically be updated to the post title -->
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <link href="../style/style.css" rel="stylesheet" type="text/css" media="all">    
+  </head>
+  <body>
+    <div id="container">
+    <div id="header">...</div>
+    <div id="content">
+      <h1 id="postTitleH1"></h1>
+      <h4 id="postDate"></h4>
+      
+      <p>Well, here it is. The first in what I hope to be many upon many blog posts to this website. With this being posted here, I officially retire the blog on my <a href="https://connorthevgfan78.wordpress.com/" target="_blank">Wordpress</a> site.</p>
+
+<p>In fact, I might as well retire the <a href="https://connorthevgfan78.wordpress.com/" target="_blank">Wordpress</a> site permanently. It has been gathering dust for the past however long it’s been since I last updated it. It has served its purpose, and for that, I bid it farewell.<p>
+<br>
+<img src="/images/posts/2024-07-27/img-01.png">
+<p class="caption">Goodnight, sweet prince. You will hardly be missed.</p>
+<p>With that out of the way, welcome to the brand new and somewhat-improved home of the ConnorTheVGFan78 blog. And yes, if that name becomes too much of a mouthful, you can just call me Connor.</p>
+<p>Now you may be wondering to yourselves:</p>
+  
+<p><i>“Connor, what exciting plans do you have for this blog???”</i></p>
+  
+<p>…I wish I knew, lol. This is basically a place where I can post about different things that I’m interested in, things I’m doing, as well as discoveries I’ve made during my journey throughout the web.</p>
+  
+<p>And yeah, that’s pretty much it. I welcome you all to my blog and I hope you all enjoy reading whatever it is I post here!!!</p>
+      
+      
+    <div id="nextprev"></div>
+    </div> <!-- end of div id="content" -->
+    <div id="footer"></div>
+    </div> <!-- end of div id="container" -->
+  <!-- Here's the link to our JavaScript! -->
+  <script src="../script.js"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
