@@ -160,6 +160,10 @@ https://github.com/legacy-icons/famfamfam-silk*/
   text-align: center;
   color: white;
 
+  a{
+    color: cyan;
+  }
+
   h3 {
     color: red;
     font-family: Georgia, 'Times New Roman', Times, serif;
