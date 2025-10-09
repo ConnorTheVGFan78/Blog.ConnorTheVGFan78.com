@@ -5,10 +5,33 @@
   <description>A blog created by ConnorTheVGFan78</description>
   <link>https://blog.connorthevgfan78.com/</link>
   <atom:link href="https://blog.connorthevgfan78.com/feed.xml" rel="self" type="application/rss+xml" />
-  <lastBuildDate>Thu, 12 Jun 2025 12:47:40 -0400</lastBuildDate>
+  <lastBuildDate>Thu, 09 Oct 2025 01:29:42 -0400</lastBuildDate>
   <ttl>60</ttl>
 
 <!-- ADD NEW POST HERE -->
+
+  <item>
+    <title>A Quick Word on the Internet Archive</title>
+    <description>
+<![CDATA[            <p>On October 9 2024, the <a href="https://archive.org/" target="_blank">Internet Archive</a> suffered not only a massive DDOS attack that took several services (including the Wayback Machine) offline, but also a data breach that saw the emails, usernames, and passwords of nearly 31 million accounts leaked.</p>
+
+            <p>As of the last time I checked, the Internet Archive remains down, and the hacker group claiming responsibility has openly stated that they took down the Archive because it’s “owned by the US Government” (Spoiler Alert: it’s not, it’s an independent non-profit that happens to be based in the US).</p>
+
+            <img src="/images/posts/2024-10-11/Screenshot 2024-10-11 071700.png" width="500px" alt="A reply thread from X formerly Twitter: An onlooker named Chris asks ok I'll bite, Why? The hacker group SN Black Meta says, They are under attack because the archive belongs to the USA, and as we all know, this horrendous and hypocritical government supports the genocide that is being carried out by the terrorist state of Israel. A community note is posted under Black Meta's claim, saying that the Internet Archive is not a government entity.">
+            <br>
+            <font size="1"><i>Our "heroes" hard at work justifying why they're burning down the library</i></font>
+
+            <p>I was very upset, to say the least, when I heard of the Archive getting taken offline, and appalled at the reason given as to why it was targeted. The fact that someone would want to, or in this case, go through with taking down such a rich and diverse center of information, as well as the Internet’s very own history book in the form of the Wayback Machine, is disturbing. Additionally, to have this come nearly months after the Archive lost a landmark copyright case against book publishers, and two months after record companies announced their own lawsuits against the Archive, makes this situation feel like a cup of salt being poured into an open wound.</p>
+
+            <p>The Internet Archive is such a vital source of information for everyone on the Internet, whether it be people wanting to revisit an old website from their childhood on the Wayback Machine, or looking for any other form of media from digitized VHS recordings to full books and magazines that are out of print. The Archive is a vital resource for all, and one that we must defend and support now more than ever.</p>
+
+            <p>At this moment, the Internet Archive remains down and the details of the breach have been imported to <a href="https://haveibeenpwned.com/" target="_blank">Have I Been Pwned</a> (if you have an IA account, I highly encourage you to check your email address on HIBP to see if it was in the breach data). When it comes back online, I feel like we need to evaluate how we can help the Internet Archive going forward. Whether it be with downloading and storing Archive content on our own systems or supporting the Archive monetarily when able. One thing is clear: going forward, supporting the Internet Archive is going to need to be a community effort, like it has always been since the first files were uploaded to its oldest servers. We’ll all need to contribute in our own ways, so that content from the Internet Archive continues to be preserved and accessible, even in a catastrophic event like this one.</p>
+            <img src="/images/posts/2024-10-11/savetheinternet-savethearchive.jpg" alt="Our Library is burning. It's up to us to extinguish the flames and save its contents. Save the Internet, Save the Archive.">]]>
+    </description>
+    <pubDate>Thu, 11 Oct 2024 07:00:00 -0400</pubDate>
+    <link>https://blog.connorthevgfan78.com/posts/2024-10-11-A-Quick-Word-on-the-Internet-Archive.html</link>
+    <guid isPermaLink="false">https://blog.connorthevgfan78.com/feed.xml#3</guid>
+  </item>
 
   <item>
     <title>An Old Survey: Online Communities</title>
